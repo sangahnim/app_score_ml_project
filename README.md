@@ -124,10 +124,8 @@
 >> * Feature Importance와 Permutation Importance에서의 특성이 비슷하다고 하기는 어려웠고, PDP에서 추천되는 부분에 대한 시각화가 잘 나타나지 않았다. 
 >> * Imbalance한 데이터의 모델링에 성능을 높이기 위해 많은 시도를 하였으나, 최종모델에 Test Data를 넣었을 때, AUC Score가 0.58로 마무리지은 것이 아쉽다.
 >> * 모델의 성능이 좋다고 하기는 어려운데, 이는 데이터 특성의 정보가 부족하기 때문이라고 생각한다.
->> * 어플의 추천시 특성상 주관적인 판단이 많이 들어가는데, 캐글 데이터로 주관적인 내용을 구분하기는 쉽지 않았다.
->> * 연령대나 성별 등 이용자의 정보가 추가적으로 특성에 반영된다면 더 좋은 모델링을 할 수 있을 것이라 기대한다. 
->> * 어플의 특성은 주관적인 판단이 많이 들어가는데, 캐글 데이터의 특성은 한계가 있었고, 주관적인 내용은 사실 구분하기 쉽지않다.
->> * 연령대나 성별 등 이용자의 정보가 추가적으로 특성에 반영된다면 더 좋은 모델링을 할 수 있을 것이라 기대한다.
+>> * 어플의 추천시 특성상 주관적인 판단이 많이 들어가는데, 캐글 데이터로 주관적인 내용을 구분하기는 쉽지 않았던 것이 아쉬운 이 프로젝트의 한계점이다.
+
 
 ![MLProject 001](https://user-images.githubusercontent.com/86824895/181692186-855167ba-4b77-41a3-a606-2b0647c66042.jpeg)
 ![MLProject 002](https://user-images.githubusercontent.com/86824895/181692197-dfe9cdcb-ab14-4d65-825a-b58ab3cc8529.jpeg)
@@ -166,5 +164,4 @@
 ![MLProject 035](https://user-images.githubusercontent.com/86824895/181692297-6aac92fc-3fb1-4881-89d3-8250095e6823.jpeg)
 ![MLProject 036](https://user-images.githubusercontent.com/86824895/181692301-0117fe1f-f5ea-45e1-a890-cb1cff2b5328.jpeg)
 ![MLProject 037](https://user-images.githubusercontent.com/86824895/181692303-5053590c-7a34-4111-88c8-8f945ab1f039.jpeg)
-![MLProject 038](https://user-images.githubusercontent.com/86824895/181692304-5f7a6ac3-eea6-4d2b-ac17-92f1818db0a0.jpeg)
-
+![MLProject 038](https://user-images.githubusercontent.com/86824895/181715099-36a98bed-7f44-488b-bf39-41ca4cb75d10.jpeg)
