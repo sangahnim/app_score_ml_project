@@ -14,10 +14,10 @@
 2. **Import Library, Data** 
 
 <img width="843" alt="스크린샷 2022-07-29 오후 4 59 31" src="https://user-images.githubusercontent.com/86824895/181713402-4d24781b-4c6f-459f-ba18-771edca58f59.png">
+<img width="859" alt="스크린샷 2022-07-29 오후 4 59 42" src="https://user-images.githubusercontent.com/86824895/181714233-5bc7e1e8-aa3a-4abe-8675-30fbabce5626.png">
 
-<img width="859" alt="스크린샷 2022-07-<img width="833" alt="스크린샷 2022-07-29 오후 4 59 51" src="https://user-images.githubusercontent.com/86824895/181713473-59deecc3-197a-4cfa-940c-8d80e72d1d75.png">
-29 오후 4 59 42" src="https://user-images.githubusercontent.com/86824895/181713430-21d2f793-0a8f-4890-b163-f5a818abd40e.png">
-![Uploading 스크린샷 2022-07-29 오후 4.59.51.png…]()
+<img width="833" alt="스크린샷 2022-07-29 오후 4 59 51" src="https://user-images.githubusercontent.com/86824895/181714248-806a5a2c-f06f-4076-ac93-8cfaa308aee2.png">
+
 
 
 
