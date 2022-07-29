@@ -13,6 +13,12 @@
 
 2. **Import Library, Data** 
 
+<img width="843" alt="스크린샷 2022-07-29 오후 4 59 31" src="https://user-images.githubusercontent.com/86824895/181713402-4d24781b-4c6f-459f-ba18-771edca58f59.png">
+
+<img width="859" alt="스크린샷 2022-07-<img width="833" alt="스크린샷 2022-07-29 오후 4 59 51" src="https://user-images.githubusercontent.com/86824895/181713473-59deecc3-197a-4cfa-940c-8d80e72d1d75.png">
+29 오후 4 59 42" src="https://user-images.githubusercontent.com/86824895/181713430-21d2f793-0a8f-4890-b163-f5a818abd40e.png">
+![Uploading 스크린샷 2022-07-29 오후 4.59.51.png…]()
+
 
 
 3. **가설, 기준모델(Baseline model), 평가지표설명**:
@@ -20,6 +26,7 @@
 > **가설**
 
 >> * 가설1 : 소프트웨어산업 중 가장 높은 비율을 차지하는 장르가 추천할 확률도 가장 높을 것이다.
+<img width="929" alt="스크린샷 2022-07-29 오후 5 00 01" src="https://user-images.githubusercontent.com/86824895/181713519-cb88cd1a-8fde-4cbf-8c44-7fb7d8fa0090.png">
 
 >> * 어플 장르에 게임이 차지하는 비율이 압도적으로 높다.
 >> * 전체를 기준으로 추천율, 비추천율을 장르별로 구분하여도 게임이 다른 장르에 비해서 모두 높다.
@@ -27,6 +34,10 @@
 
 
 >> * 가설2 : 가격의 영향력은 크기 때문에, 저렴하면 추천될 확률이 높을 것이다.
+
+<img width="838" alt="스크린샷 2022-07-29 오후 5 00 11" src="https://user-images.githubusercontent.com/86824895/181713567-64ec338e-32c2-4aa5-a3d8-7ad4ecb7f0a4.png">
+<img width="909" alt="스크린샷 2022-07-29 오후 5 00 22" src="https://user-images.githubusercontent.com/86824895/181713582-962de1ec-9198-4cae-a582-316a30b89ca2.png">
+
 
 >> * 추천과 비추천의 데이터 수가 무료에 다른 가격에 비해 많고, 추천과 비추천 모두 가격이 적을수록 수치가 높았다.
 >> * 각 가격별로 추천비율을 구했을 때, 18.99달러와 23.99달러의 추천율이 1로, 데이터가 하나씩있는 이상치임을 확인하였다.
@@ -36,6 +47,9 @@
 > **기준모델 및 평가지표설명**
 
 >> * Target 특성은 어플 평점이 4.5점을 넘으면 True로 표시하는 새로운 특성을 생성.
+<img width="800" alt="스크린샷 2022-07-29 오후 5 00 34" src="https://user-images.githubusercontent.com/86824895/181713924-88c9f57d-0307-4a9e-94c5-cd5f1995a04a.png">
+
+
 >> * Baseline Model로는 초기 최빈값인 0.92에서 RandomForest의 AUC Score로 변경하였다
 
 
@@ -90,13 +104,17 @@
 
 > 2) Feature Importance  
 
->> Feature Importance는 트리기반 앙상블모델에서 사용되는 중요도로 노드가 중요할수록 불순도가 크게 감소하는 특징을 이용하여 중요도를 나타낸 것으로, lang_num, prime_genre, size_bytes Feature가 중요함을 보여준다.  
-
 > 3) Permutation Importance (순열 중요도)  
+
+<img width="812" alt="스크린샷 2022-07-29 오후 5 01 05" src="https://user-images.githubusercontent.com/86824895/181713781-f49aaadb-e686-46ce-8ad8-f61305157208.png">
+
+>> Feature Importance는 트리기반 앙상블모델에서 사용되는 중요도로 노드가 중요할수록 불순도가 크게 감소하는 특징을 이용하여 중요도를 나타낸 것으로, lang_num, prime_genre, size_bytes Feature가 중요함을 보여준다.  
 
 >> Permutation Importance는 무작위로 섞어 노이즈로 만들기에 예측값과 실제값이 어람나 차이나는지 영향력을 파악하는 것인데, rating_count_tot, size_bytes, ipadSc_urls_num의 순으로 중요한 Feature임을 보여준다.
 
 > 4) PDP
+<img width="720" alt="스크린샷 2022-07-29 오후 5 00 51" src="https://user-images.githubusercontent.com/86824895/181713763-08f5e77c-9af8-4cba-b41e-ed105227dee7.png">
+
 >> * Feature Importance에서 중요한 상위 4가지 Feature에 대해 PDPlot 확인
 
 > 5) 프로젝트 회고
