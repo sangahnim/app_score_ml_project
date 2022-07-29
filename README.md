@@ -123,7 +123,7 @@
   
 >> * Feature Importance와 Permutation Importance에서의 특성이 비슷하다고 하기는 어려웠고, PDP에서 추천되는 부분에 대한 시각화가 잘 나타나지 않았다. 
 >> * Imbalance한 데이터의 모델링에 성능을 높이기 위해 많은 시도를 하였으나, 최종모델에 Test Data를 넣었을 때, AUC Score가 0.58로 마무리지은 것이 아쉽다.
->> * 어플의 추천시 특성상 주관적인 판단이 많이 들어가는데, 캐글 데이터로 주관적인 내용을 구분하기는 쉽지 않았던 것이 아쉬운 이 프로젝트의 한계점이다.
+>> * 어플추천시 주관적인 판단이 많이 들어가는데, 해당 데이터로 주관적인 내용을 구분하기가 쉽지 않았던 것이 이 프로젝트의 한계점으로 생각된다.
 
 
 ![MLProject 001](https://user-images.githubusercontent.com/86824895/181692186-855167ba-4b77-41a3-a606-2b0647c66042.jpeg)
@@ -163,4 +163,4 @@
 ![MLProject 035](https://user-images.githubusercontent.com/86824895/181692297-6aac92fc-3fb1-4881-89d3-8250095e6823.jpeg)
 ![MLProject 036](https://user-images.githubusercontent.com/86824895/181692301-0117fe1f-f5ea-45e1-a890-cb1cff2b5328.jpeg)
 ![MLProject 037](https://user-images.githubusercontent.com/86824895/181692303-5053590c-7a34-4111-88c8-8f945ab1f039.jpeg)
-![MLProject 038](https://user-images.githubusercontent.com/86824895/181715099-36a98bed-7f44-488b-bf39-41ca4cb75d10.jpeg)
+![MLProject 038](https://user-images.githubusercontent.com/86824895/181715810-378efff3-bd1b-44ae-8f17-5a2b657475a4.jpeg)
