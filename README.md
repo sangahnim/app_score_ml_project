@@ -28,6 +28,8 @@
 >> * 가설1 : 소프트웨어산업 중 가장 높은 비율을 차지하는 장르가 추천할 확률도 가장 높을 것이다.
 <img width="929" alt="스크린샷 2022-07-29 오후 5 00 01" src="https://user-images.githubusercontent.com/86824895/181713519-cb88cd1a-8fde-4cbf-8c44-7fb7d8fa0090.png">
 
+<img width="838" alt="스크린샷 2022-07-29 오후 5 00 11" src="https://user-images.githubusercontent.com/86824895/181713567-64ec338e-32c2-4aa5-a3d8-7ad4ecb7f0a4.png">
+
 >> * 어플 장르에 게임이 차지하는 비율이 압도적으로 높다.
 >> * 전체를 기준으로 추천율, 비추천율을 장르별로 구분하여도 게임이 다른 장르에 비해서 모두 높다.
 >> * 마지막 그래프인 recommendation ratio by genre2를 보면, 게임의 점유율과 무관하게 추천율은 높지 않음을 확인할 수 있으며, 가장 추천율이 높은 장르는 Book으로 확인하였다.
@@ -35,7 +37,7 @@
 
 >> * 가설2 : 가격의 영향력은 크기 때문에, 저렴하면 추천될 확률이 높을 것이다.
 
-<img width="838" alt="스크린샷 2022-07-29 오후 5 00 11" src="https://user-images.githubusercontent.com/86824895/181713567-64ec338e-32c2-4aa5-a3d8-7ad4ecb7f0a4.png">
+
 <img width="909" alt="스크린샷 2022-07-29 오후 5 00 22" src="https://user-images.githubusercontent.com/86824895/181713582-962de1ec-9198-4cae-a582-316a30b89ca2.png">
 
 
